@@ -4,11 +4,12 @@
 		<meta charset="UTD-8">
 		<meta name="viewport" content="width=devide=width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<title>Productivity</title>
+		<title>Productiviti</title>
 		<link rel="stylesheet" href="main.css">
+		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
-		<audio src="music.mpeg" controls></audio>
+		<!-- <audio src="music.mpeg" controls></audio> -->
 		
 
 		<div id="stopwatch">
@@ -21,7 +22,20 @@
 			<li><button onclick="resetTimer()">Reset</button></li>
 		</ul>
 
+		<h1>Background Sounds</h1>
+		<label for = "myRadioId" class = "radio">
+		<ul>
+			<li><input type = "radio" onclick="playNoMusic()" name = "audio" id = "myRadioId" class = "radio__input"> No Sound</li>
+			<li><input type = "radio" onclick="playCoffeeMusic()" name = "audio" id = "myRadioId" class = "radio__input"> Coffee Shop Ambience</li> 
+			<li><input type = "radio" onclick="playRainMusic()" name = "audio" id = "myRadioId" class = "radio__input"> Relaxing Rain</li>
+			<li><input type = "radio" onclick="playRiverMusic()" name = "audio" id = "myRadioId" class = "radio__input"> Flowing River</li>
+			
+		 </ul>
+		<div class = "radio__radio"></div>
+		</label>
+
 		<script src="timer.js"></script>
+		<script src="playaudio.js"></script>
 
 	</body>
 </html>
