@@ -5,7 +5,7 @@
     "description": "demo",
     "browser_action": {
         "default_icon": "logo.png",
-        "default_popup": "popupTEST.html"
+        "default_popup": "popupTEST01.html"
     },
     "permissions": [
         "activeTab", 
