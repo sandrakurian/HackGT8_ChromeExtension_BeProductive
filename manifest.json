@@ -1,11 +1,11 @@
 {
     "manifest_version": 2,
     "name": "productivity",
-    "version": "2.1.0",
+    "version": "3.1.1",
     "description": "demo",
     "browser_action": {
         "default_icon": "logo.png",
-        "default_popup": "popup.html"
+        "default_popup": "popupTEST.html"
     },
     "permissions": [
         "activeTab", 
