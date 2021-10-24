@@ -13,9 +13,9 @@ var stoptime = true;
 
 function startTimer() {
   if (stoptime == true) {
-        stoptime = false;
-        timerCycle();
-    }
+    stoptime = false;
+    timerCycle();
+  }
 }
 function stopTimer() {
   if (stoptime == false) {
