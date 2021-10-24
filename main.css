@@ -7,7 +7,7 @@ body {
 button {
     width: 100px;
     height: 30px;
-    border: 3px soldi white;
+    border: 2px soldi white;
     border-radius: 50px;
     background: #202020;
     color: white;
@@ -16,17 +16,17 @@ button {
 }
 
 #stopwatch {
-    font-size: 100px;
-    position: absolute;
+    font-size: 50px;
+    /* position: absolute; */
     top: 45%;
-    left: 50%;
-    transform: translate(-50%, -55%);
+    /* left: 50%; */
+    /* transform: translate(-50%, -55%); */
 }
 #buttons {
-    position: absolute;
+    /* position: absolute; */
     top: 55%;
-    left: 48.4%;
-    transform: translate(-51.6%, -45%);
+    /* left: 48.4%; */
+    /* transform: translate(-51.6%, -45%); */
 }
 #buttons li {
     display: inline;
